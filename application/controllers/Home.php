@@ -143,7 +143,12 @@ $auth0->login();
 
 
 	}
+    public function logout(){
 
+        $this->session->sess_destroy();
+        redirect('index.php/home/login');
+        die();
+    } 
 
 	public function register($value=''){
 		$this->load->template('view-register');

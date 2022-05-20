@@ -64,7 +64,7 @@
                                                 </div>
                                                 <a href="<?php echo base_url()?>index.php/owner/profile/edit/" class="view btn-sm active">View Profile</a>
                                                 <a href="<?php echo base_url()?>index.php/owner/profile/password/" class="view btn-sm active">Setting</a>
-                                                <a href="<?php echo base_url()?>index.php/owner/exitsession/" class="view btn-sm active">Logout</a>                                                
+                                                <a href="<?php echo base_url()?>index.php/home/logout/" class="view btn-sm active">Logout</a>                                                
                                             </div>
                                         </li>
                                     </ul>
